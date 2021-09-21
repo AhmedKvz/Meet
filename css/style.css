@@ -32,7 +32,7 @@ main {
   overflow: hidden;
   width: 1480px;
 }
-/* --------- Header ----------- */
+/* --------- Header Start ----------- */
 
 .header-logo {
   display: flex;
@@ -131,6 +131,8 @@ main {
   margin-left: 3.5vw;
 }
 
+/* --------- Reusable Components Start ----------- */
+
 button {
   color: white;
   font-size: 16px;
@@ -147,6 +149,24 @@ button {
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
 }
+
+.main-span {
+  width: 56px;
+  height: 56px;
+  border: 1px solid var(--gray);
+  color: var(--gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: auto;
+  margin-top: auto;
+  position: relative;
+}
+
+/* --------- Reusable Components End ----------- */
 
 .header-button-left {
   padding: 20px 50px;
@@ -171,22 +191,9 @@ button {
   color: var(--background);
 }
 
-.main-span {
-  width: 56px;
-  height: 56px;
-  border: 1px solid var(--gray);
-  color: var(--gray);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  font-size: 1rem;
-  font-weight: 500;
-  margin: auto;
-  margin-top: auto;
-  position: relative;
-}
+/* --------- Header End ----------- */
 
+/* --------- Main Start ----------- */
 .span-one {
   margin-bottom: -20px;
 }
@@ -256,7 +263,6 @@ button {
 
 .gallery-article p {
   width: 45%;
-  padding-bottom: ;
   margin: 20px auto 0 auto;
   font-size: 16px;
   font-weight: 500;
@@ -264,8 +270,11 @@ button {
   color: var(--gray);
 }
 
+/* --------- Main End ----------- */
+
+/* --------- Footer Start ----------- */
 .footer {
-  margin-top: 7vh;  
+  margin-top: 7vh;
   width: 100%;
   color: white;
   background-image: linear-gradient(
@@ -304,11 +313,15 @@ button {
 }
 .footer-button {
   font-size: 0.8rem;
-  display: inline-block;
-  padding-left: -16px;
   background-color: var(--button);
+  width: 14vw;
+}
+
+.footer-button:hover {
+  background-color: var(--hoverButton);
 }
 
 .footer-span {
   color: var(--lightButton);
 }
+/* --------- Footer End ----------- */
