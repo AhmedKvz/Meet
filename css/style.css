@@ -799,3 +799,16 @@ button {
   margin-left: 64px;
 }
 }
+
+@media only screen and (max-width: 375px) and  (orientation: portrait) {
+  .footer-text p {
+    width: 188%;
+  }
+  
+  .footer-button {
+    height: 60px;
+    margin-top: 10px;
+    width: 101%;
+}
+  
+}
