@@ -315,6 +315,7 @@ button {
   margin-left: 60px;
   margin-right: 60px;
   width: 50%;
+    height: 60px;
 }
 
 .footer-button:hover {
